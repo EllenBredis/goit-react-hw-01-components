@@ -14,12 +14,12 @@ export const List = styled.li`
     `;
     
   
-    export const FriendOnline = styled.span`
+    export const FriendStatus = styled.span`
     width: 20px;
     height: 20px;
     margin-right: 15px;
     border-radius: 50%;
-    background-color: ${props => (props.isOnline ? 'green' : 'rad')};
+    background-color: ${props => (props.isOnline ? 'green' : 'red')};
   `; 
 
     export const Avatar = styled.img`
